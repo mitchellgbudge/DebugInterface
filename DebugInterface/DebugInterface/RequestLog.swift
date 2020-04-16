@@ -9,9 +9,15 @@
 import SwiftUI
 
 struct RequestLog : View {
+    
+    @State private var inputText: String = ""
+  //  let requests = []
+    
     var body: some View {
         NavigationView {
-            Text("")
+            VStack {
+                SearchBar(text: $inputText)
+            }
             .navigationBarTitle("Requests")
         }
     }
