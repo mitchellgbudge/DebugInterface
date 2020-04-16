@@ -15,6 +15,7 @@
 		C99BFE502448FD72008CBB02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C99BFE4E2448FD72008CBB02 /* LaunchScreen.storyboard */; };
 		C99BFE5B2448FD72008CBB02 /* DebugInterfaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99BFE5A2448FD72008CBB02 /* DebugInterfaceTests.swift */; };
 		C99BFE662448FD72008CBB02 /* DebugInterfaceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99BFE652448FD72008CBB02 /* DebugInterfaceUITests.swift */; };
+		C99BFE762448FDB7008CBB02 /* RequestLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99BFE752448FDB7008CBB02 /* RequestLog.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		C99BFE612448FD72008CBB02 /* DebugInterfaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DebugInterfaceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C99BFE652448FD72008CBB02 /* DebugInterfaceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugInterfaceUITests.swift; sourceTree = "<group>"; };
 		C99BFE672448FD72008CBB02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C99BFE752448FDB7008CBB02 /* RequestLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestLog.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				C99BFE432448FD71008CBB02 /* AppDelegate.swift */,
 				C99BFE452448FD71008CBB02 /* SceneDelegate.swift */,
 				C99BFE472448FD71008CBB02 /* ContentView.swift */,
+				C99BFE752448FDB7008CBB02 /* RequestLog.swift */,
 				C99BFE492448FD72008CBB02 /* Assets.xcassets */,
 				C99BFE4E2448FD72008CBB02 /* LaunchScreen.storyboard */,
 				C99BFE512448FD72008CBB02 /* Info.plist */,
@@ -269,6 +272,7 @@
 			files = (
 				C99BFE442448FD71008CBB02 /* AppDelegate.swift in Sources */,
 				C99BFE462448FD71008CBB02 /* SceneDelegate.swift in Sources */,
+				C99BFE762448FDB7008CBB02 /* RequestLog.swift in Sources */,
 				C99BFE482448FD71008CBB02 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
