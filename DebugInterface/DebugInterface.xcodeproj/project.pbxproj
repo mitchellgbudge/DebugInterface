@@ -16,6 +16,7 @@
 		C99BFE5B2448FD72008CBB02 /* DebugInterfaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99BFE5A2448FD72008CBB02 /* DebugInterfaceTests.swift */; };
 		C99BFE662448FD72008CBB02 /* DebugInterfaceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99BFE652448FD72008CBB02 /* DebugInterfaceUITests.swift */; };
 		C99BFE762448FDB7008CBB02 /* RequestLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99BFE752448FDB7008CBB02 /* RequestLog.swift */; };
+		C99BFE782448FED4008CBB02 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99BFE772448FED4008CBB02 /* SearchBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		C99BFE652448FD72008CBB02 /* DebugInterfaceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugInterfaceUITests.swift; sourceTree = "<group>"; };
 		C99BFE672448FD72008CBB02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C99BFE752448FDB7008CBB02 /* RequestLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestLog.swift; sourceTree = "<group>"; };
+		C99BFE772448FED4008CBB02 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				C99BFE432448FD71008CBB02 /* AppDelegate.swift */,
 				C99BFE452448FD71008CBB02 /* SceneDelegate.swift */,
 				C99BFE472448FD71008CBB02 /* ContentView.swift */,
+				C99BFE772448FED4008CBB02 /* SearchBar.swift */,
 				C99BFE752448FDB7008CBB02 /* RequestLog.swift */,
 				C99BFE492448FD72008CBB02 /* Assets.xcassets */,
 				C99BFE4E2448FD72008CBB02 /* LaunchScreen.storyboard */,
@@ -272,6 +275,7 @@
 			files = (
 				C99BFE442448FD71008CBB02 /* AppDelegate.swift in Sources */,
 				C99BFE462448FD71008CBB02 /* SceneDelegate.swift in Sources */,
+				C99BFE782448FED4008CBB02 /* SearchBar.swift in Sources */,
 				C99BFE762448FDB7008CBB02 /* RequestLog.swift in Sources */,
 				C99BFE482448FD71008CBB02 /* ContentView.swift in Sources */,
 			);
