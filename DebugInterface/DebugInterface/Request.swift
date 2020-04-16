@@ -8,13 +8,14 @@
 
 import SwiftUI
 
-struct Request {
+struct Request: Identifiable {
     let method: String
     let statusCode: Int
     let speed: Int
     let url: String
+    let id: UUID
     
-    init(method: String, statusCode: Int, speed: Int, url: String) {
+    init(method: String, statusCode: Int, speed: Int, url: String, id: UUID = UUID()) {
         self.method = method
         self.statusCode = statusCode
         self.speed = speed

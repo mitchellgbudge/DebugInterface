@@ -11,12 +11,18 @@ import SwiftUI
 struct RequestLog : View {
     
     @State private var inputText: String = ""
-  //  let requests = []
+    let requests = [Request(method: <#T##String#>, statusCode: <#T##Int#>, speed: <#T##Int#>, url: <#T##String#>), Request(method: <#T##String#>, statusCode: <#T##Int#>, speed: <#T##Int#>, url: <#T##String#>)]
     
     var body: some View {
         NavigationView {
             VStack {
                 SearchBar(text: $inputText)
+                List(requests) { request in
+                    VStack(alignment: .leading) {
+                        Text(request.method)
+                        
+                    }
+                }
             }
             .navigationBarTitle("Requests")
         }
