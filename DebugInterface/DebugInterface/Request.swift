@@ -14,11 +14,21 @@ struct Request: Identifiable {
     let speed: Int
     let url: String
     let id: UUID
+    var color: Color {
+        if statusCode == 200 || statusCode == 201 {
+            return Color.green
+        } else {
+            return Color.orange
+        }
+    }
     
-    init(method: String, statusCode: Int, speed: Int, url: String, id: UUID = UUID()) {
+    init(method: String, statusCode: Int, speed: Int, url: String, id: UUID = UUID(), color: Color = .green) {
         self.method = method
         self.statusCode = statusCode
         self.speed = speed
         self.url = url
+        self.id = id
     }
+    
+    
 }

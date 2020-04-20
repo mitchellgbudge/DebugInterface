@@ -33,6 +33,7 @@ struct SearchBar: UIViewRepresentable {
         let searchBar = UISearchBar(frame: .zero)
         searchBar.delegate = context.coordinator
         searchBar.searchBarStyle = .default
+        searchBar.placeholder = "Search URL"
         return searchBar
     }
     
