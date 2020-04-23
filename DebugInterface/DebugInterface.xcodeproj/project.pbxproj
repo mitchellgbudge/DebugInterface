@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C98743A22451FBD200036E5F /* NetworkDebuggerMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98743A02451FBD200036E5F /* NetworkDebuggerMainView.swift */; };
-		C98743A32451FBD200036E5F /* NetworkRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98743A12451FBD200036E5F /* NetworkRequestView.swift */; };
-		C98743A52451FBD900036E5F /* MockRequestsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98743A42451FBD900036E5F /* MockRequestsListViewModel.swift */; };
-		C98743A72451FBDE00036E5F /* MockRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98743A62451FBDE00036E5F /* MockRequest.swift */; };
+		6EDCAF8A2451FE1500799946 /* NetworkDebuggerMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDCAF892451FE1500799946 /* NetworkDebuggerMainView.swift */; };
+		6EDCAF8C2451FE8D00799946 /* MockRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDCAF8B2451FE8D00799946 /* MockRequest.swift */; };
+		6EDCAF8E2451FEAB00799946 /* MockRequestsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDCAF8D2451FEAB00799946 /* MockRequestsListViewModel.swift */; };
+		6EDCAF902451FEE000799946 /* NetworkRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDCAF8F2451FEE000799946 /* NetworkRequestView.swift */; };
 		C98743AA2451FC4500036E5F /* MKUICommon in Frameworks */ = {isa = PBXBuildFile; productRef = C98743A92451FC4500036E5F /* MKUICommon */; };
 		C99BFE442448FD71008CBB02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99BFE432448FD71008CBB02 /* AppDelegate.swift */; };
 		C99BFE462448FD71008CBB02 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99BFE452448FD71008CBB02 /* SceneDelegate.swift */; };
@@ -42,10 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C98743A02451FBD200036E5F /* NetworkDebuggerMainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkDebuggerMainView.swift; path = ../../../../MKDebugTools/Sources/NetworkDebugger/Views/NetworkDebuggerMainView.swift; sourceTree = "<group>"; };
-		C98743A12451FBD200036E5F /* NetworkRequestView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkRequestView.swift; path = ../../../../MKDebugTools/Sources/NetworkDebugger/Views/NetworkRequestView.swift; sourceTree = "<group>"; };
-		C98743A42451FBD900036E5F /* MockRequestsListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MockRequestsListViewModel.swift; path = ../../../../MKDebugTools/Sources/NetworkDebugger/ViewModels/MockRequestsListViewModel.swift; sourceTree = "<group>"; };
-		C98743A62451FBDE00036E5F /* MockRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MockRequest.swift; path = ../../../../MKDebugTools/Sources/NetworkDebugger/Models/MockRequest.swift; sourceTree = "<group>"; };
+		6EDCAF892451FE1500799946 /* NetworkDebuggerMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDebuggerMainView.swift; sourceTree = "<group>"; };
+		6EDCAF8B2451FE8D00799946 /* MockRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockRequest.swift; sourceTree = "<group>"; };
+		6EDCAF8D2451FEAB00799946 /* MockRequestsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockRequestsListViewModel.swift; sourceTree = "<group>"; };
+		6EDCAF8F2451FEE000799946 /* NetworkRequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequestView.swift; sourceTree = "<group>"; };
 		C99BFE402448FD71008CBB02 /* DebugInterface.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DebugInterface.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C99BFE432448FD71008CBB02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C99BFE452448FD71008CBB02 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -125,10 +125,10 @@
 			children = (
 				C99BFE432448FD71008CBB02 /* AppDelegate.swift */,
 				C99BFE452448FD71008CBB02 /* SceneDelegate.swift */,
-				C98743A62451FBDE00036E5F /* MockRequest.swift */,
-				C98743A42451FBD900036E5F /* MockRequestsListViewModel.swift */,
-				C98743A02451FBD200036E5F /* NetworkDebuggerMainView.swift */,
-				C98743A12451FBD200036E5F /* NetworkRequestView.swift */,
+				6EDCAF8B2451FE8D00799946 /* MockRequest.swift */,
+				6EDCAF8D2451FEAB00799946 /* MockRequestsListViewModel.swift */,
+				6EDCAF892451FE1500799946 /* NetworkDebuggerMainView.swift */,
+				6EDCAF8F2451FEE000799946 /* NetworkRequestView.swift */,
 				C99BFE492448FD72008CBB02 /* Assets.xcassets */,
 				C99BFE4E2448FD72008CBB02 /* LaunchScreen.storyboard */,
 				C99BFE512448FD72008CBB02 /* Info.plist */,
@@ -301,15 +301,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C98743A52451FBD900036E5F /* MockRequestsListViewModel.swift in Sources */,
+				6EDCAF8E2451FEAB00799946 /* MockRequestsListViewModel.swift in Sources */,
 				C99BFE442448FD71008CBB02 /* AppDelegate.swift in Sources */,
-				C98743A72451FBDE00036E5F /* MockRequest.swift in Sources */,
+				6EDCAF8C2451FE8D00799946 /* MockRequest.swift in Sources */,
 				C99BFE7A244905BA008CBB02 /* Request.swift in Sources */,
 				C99BFE462448FD71008CBB02 /* SceneDelegate.swift in Sources */,
 				C99BFE782448FED4008CBB02 /* SearchBar.swift in Sources */,
-				C98743A32451FBD200036E5F /* NetworkRequestView.swift in Sources */,
 				C99BFE762448FDB7008CBB02 /* RequestLog.swift in Sources */,
-				C98743A22451FBD200036E5F /* NetworkDebuggerMainView.swift in Sources */,
+				6EDCAF902451FEE000799946 /* NetworkRequestView.swift in Sources */,
+				6EDCAF8A2451FE1500799946 /* NetworkDebuggerMainView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
