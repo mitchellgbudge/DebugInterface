@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "MKUICommon",
+        "repositoryURL": "https://github.com/mckesson/MKUICommon.git",
+        "state": {
+          "branch": null,
+          "revision": "b6176beca20153a7c5dbb1b26ae6993f5557a6b0",
+          "version": "1.2.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

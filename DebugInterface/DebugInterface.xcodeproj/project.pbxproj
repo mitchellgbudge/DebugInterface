@@ -3,13 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C98743A22451FBD200036E5F /* NetworkDebuggerMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98743A02451FBD200036E5F /* NetworkDebuggerMainView.swift */; };
+		C98743A32451FBD200036E5F /* NetworkRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98743A12451FBD200036E5F /* NetworkRequestView.swift */; };
+		C98743A52451FBD900036E5F /* MockRequestsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98743A42451FBD900036E5F /* MockRequestsListViewModel.swift */; };
+		C98743A72451FBDE00036E5F /* MockRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98743A62451FBDE00036E5F /* MockRequest.swift */; };
+		C98743AA2451FC4500036E5F /* MKUICommon in Frameworks */ = {isa = PBXBuildFile; productRef = C98743A92451FC4500036E5F /* MKUICommon */; };
 		C99BFE442448FD71008CBB02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99BFE432448FD71008CBB02 /* AppDelegate.swift */; };
 		C99BFE462448FD71008CBB02 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99BFE452448FD71008CBB02 /* SceneDelegate.swift */; };
-		C99BFE482448FD71008CBB02 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99BFE472448FD71008CBB02 /* ContentView.swift */; };
 		C99BFE4A2448FD72008CBB02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C99BFE492448FD72008CBB02 /* Assets.xcassets */; };
 		C99BFE4D2448FD72008CBB02 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C99BFE4C2448FD72008CBB02 /* Preview Assets.xcassets */; };
 		C99BFE502448FD72008CBB02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C99BFE4E2448FD72008CBB02 /* LaunchScreen.storyboard */; };
@@ -38,10 +42,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C98743A02451FBD200036E5F /* NetworkDebuggerMainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkDebuggerMainView.swift; path = ../../../../MKDebugTools/Sources/NetworkDebugger/Views/NetworkDebuggerMainView.swift; sourceTree = "<group>"; };
+		C98743A12451FBD200036E5F /* NetworkRequestView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkRequestView.swift; path = ../../../../MKDebugTools/Sources/NetworkDebugger/Views/NetworkRequestView.swift; sourceTree = "<group>"; };
+		C98743A42451FBD900036E5F /* MockRequestsListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MockRequestsListViewModel.swift; path = ../../../../MKDebugTools/Sources/NetworkDebugger/ViewModels/MockRequestsListViewModel.swift; sourceTree = "<group>"; };
+		C98743A62451FBDE00036E5F /* MockRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MockRequest.swift; path = ../../../../MKDebugTools/Sources/NetworkDebugger/Models/MockRequest.swift; sourceTree = "<group>"; };
 		C99BFE402448FD71008CBB02 /* DebugInterface.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DebugInterface.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C99BFE432448FD71008CBB02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C99BFE452448FD71008CBB02 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C99BFE472448FD71008CBB02 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C99BFE492448FD72008CBB02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C99BFE4C2448FD72008CBB02 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C99BFE4F2448FD72008CBB02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -62,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C98743AA2451FC4500036E5F /* MKUICommon in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +90,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C987439F2451FB9F00036E5F /* Old Iteration */ = {
+			isa = PBXGroup;
+			children = (
+				C99BFE772448FED4008CBB02 /* SearchBar.swift */,
+				C99BFE79244905BA008CBB02 /* Request.swift */,
+				C99BFE752448FDB7008CBB02 /* RequestLog.swift */,
+			);
+			path = "Old Iteration";
+			sourceTree = "<group>";
+		};
 		C99BFE372448FD71008CBB02 = {
 			isa = PBXGroup;
 			children = (
@@ -107,13 +125,14 @@
 			children = (
 				C99BFE432448FD71008CBB02 /* AppDelegate.swift */,
 				C99BFE452448FD71008CBB02 /* SceneDelegate.swift */,
-				C99BFE472448FD71008CBB02 /* ContentView.swift */,
-				C99BFE772448FED4008CBB02 /* SearchBar.swift */,
-				C99BFE79244905BA008CBB02 /* Request.swift */,
-				C99BFE752448FDB7008CBB02 /* RequestLog.swift */,
+				C98743A62451FBDE00036E5F /* MockRequest.swift */,
+				C98743A42451FBD900036E5F /* MockRequestsListViewModel.swift */,
+				C98743A02451FBD200036E5F /* NetworkDebuggerMainView.swift */,
+				C98743A12451FBD200036E5F /* NetworkRequestView.swift */,
 				C99BFE492448FD72008CBB02 /* Assets.xcassets */,
 				C99BFE4E2448FD72008CBB02 /* LaunchScreen.storyboard */,
 				C99BFE512448FD72008CBB02 /* Info.plist */,
+				C987439F2451FB9F00036E5F /* Old Iteration */,
 				C99BFE4B2448FD72008CBB02 /* Preview Content */,
 			);
 			path = DebugInterface;
@@ -161,6 +180,9 @@
 			dependencies = (
 			);
 			name = DebugInterface;
+			packageProductDependencies = (
+				C98743A92451FC4500036E5F /* MKUICommon */,
+			);
 			productName = DebugInterface;
 			productReference = C99BFE402448FD71008CBB02 /* DebugInterface.app */;
 			productType = "com.apple.product-type.application";
@@ -233,6 +255,9 @@
 				Base,
 			);
 			mainGroup = C99BFE372448FD71008CBB02;
+			packageReferences = (
+				C98743A82451FC4500036E5F /* XCRemoteSwiftPackageReference "MKUICommon" */,
+			);
 			productRefGroup = C99BFE412448FD71008CBB02 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -276,12 +301,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C98743A52451FBD900036E5F /* MockRequestsListViewModel.swift in Sources */,
 				C99BFE442448FD71008CBB02 /* AppDelegate.swift in Sources */,
+				C98743A72451FBDE00036E5F /* MockRequest.swift in Sources */,
 				C99BFE7A244905BA008CBB02 /* Request.swift in Sources */,
 				C99BFE462448FD71008CBB02 /* SceneDelegate.swift in Sources */,
 				C99BFE782448FED4008CBB02 /* SearchBar.swift in Sources */,
+				C98743A32451FBD200036E5F /* NetworkRequestView.swift in Sources */,
 				C99BFE762448FDB7008CBB02 /* RequestLog.swift in Sources */,
-				C99BFE482448FD71008CBB02 /* ContentView.swift in Sources */,
+				C98743A22451FBD200036E5F /* NetworkDebuggerMainView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -606,6 +634,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C98743A82451FC4500036E5F /* XCRemoteSwiftPackageReference "MKUICommon" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mckesson/MKUICommon.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C98743A92451FC4500036E5F /* MKUICommon */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C98743A82451FC4500036E5F /* XCRemoteSwiftPackageReference "MKUICommon" */;
+			productName = MKUICommon;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C99BFE382448FD71008CBB02 /* Project object */;
 }
